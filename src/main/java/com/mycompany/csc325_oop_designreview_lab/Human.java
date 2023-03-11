@@ -39,4 +39,10 @@ public abstract class Human {
 	public void setAge(short age) {
 		this.age = age;
 	}
+
+    @Override
+    public String toString() {
+        return "Human{" + "name=" + name + ", address=" + address + ", age=" + age + '}';
+    }
+        
 }
